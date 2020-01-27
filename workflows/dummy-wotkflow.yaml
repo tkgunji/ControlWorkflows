@@ -1,0 +1,12 @@
+name: "dummy-workflow"
+roles:
+  - name: dummy-task
+    properties:
+      dummy_one_two: 'overwritten'
+    task:
+      load: "dummy-task"
+  - name: dummy-task-2
+    properties:
+      dummy_one_two: 'overwritten'
+    task:
+      load: "dummy-task-2"
