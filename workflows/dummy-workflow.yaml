@@ -3,10 +3,11 @@ roles:
   - name: dummy-task-role
     properties:
       dummy_one_two: 'overwritten'
+      dummy_new_prop: 'new'
     task:
       load: "dummy-task"
   - name: dummy-task-2-role
     properties:
-      dummy_one_two: 'overwritten'
+      dummy_two_two: 'overwritten'
     task:
       load: "dummy-task-2"

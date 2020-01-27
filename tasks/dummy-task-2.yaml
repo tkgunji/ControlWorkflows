@@ -4,7 +4,6 @@ control:
 wants:
   cpu: 0.15
   memory: 128
-bind: []
 properties: 
   dummy_two_one: 'test-of-dummy-2'
   dummy_two_two: 'some-test-of-dummy-2'
