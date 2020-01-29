@@ -10,6 +10,6 @@ properties:
 command: 
   shell: true
   arguments:
-    - "3"
+    - "test-dummy-2-echo"
   value: >-
-    sleep
+    echo

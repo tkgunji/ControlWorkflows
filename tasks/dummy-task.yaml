@@ -4,12 +4,9 @@ control:
 wants:
   cpu: 0.15
   memory: 128
-properties: 
-  dummy_one_one: 'test'
-  dummy_one_two: 'some-test'
 command: 
   shell: true
   arguments:
-    - "3"
+    - "test-dummy-echo"
   value: >-
-    sleep
+    echo
