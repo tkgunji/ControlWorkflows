@@ -1,6 +1,6 @@
 name: dummy-task-2
 control:
-  mode: direct
+  mode: basic
 wants:
   cpu: 0.15
   memory: 128
