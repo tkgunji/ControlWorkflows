@@ -7,6 +7,8 @@ roles:
     task:
       load: internal-dpl-clock
   - name: "readout-proxy"
+    properties: 
+      qc_test_1: "some_property"
     connect:
       - name: "from_internal-dpl-clock_to_readout-proxy"
         target: "{{parent}}.internal-dpl-clock:from_internal-dpl-clock_to_readout-proxy"
