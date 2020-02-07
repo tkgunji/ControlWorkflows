@@ -4,6 +4,9 @@ control:
 wants:
   cpu: 0.15
   memory: 128
+properties: 
+  dummy_one_one: 'test-of-dummy'
+  dummy_one_two: 'some-test-of-dummy'
 command: 
   shell: true
   arguments:

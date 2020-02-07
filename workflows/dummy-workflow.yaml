@@ -1,5 +1,8 @@
 name: "dummy-workflow"
 roles:
-  - name: "dummy-task-role"
+  - name: "dummy-task-2-role"
     task:
       load: "dummy-task-2"
+  - name: "dummy-task-role"
+    task:
+      load: "dummy-task"
