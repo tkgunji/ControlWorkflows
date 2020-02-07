@@ -5,7 +5,7 @@ wants:
   cpu: 0.15
   memory: 128
 properties: 
-  qc_test_1: "some_property"
+    qc_test_1: "some_property"
 bind:
   - name: "from_readout-proxy_to_Dispatcher"
     type: "push"
