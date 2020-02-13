@@ -1,7 +1,7 @@
 name: "copypush"
 vars: {}
 roles:
-  - name: "sink{{ .it }}"
+  - name: "sink{{ it }}"
     for:
       begin: 0
       end: 3
