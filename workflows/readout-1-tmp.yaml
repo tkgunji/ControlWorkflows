@@ -1,5 +1,5 @@
-name: "readout-1-root"
+name: "readout-1-tmp-root"
 roles:
-  - name: "readout-role"
+  - name: "readout-tmp-role"
     task:
-      load: "readout"
+      load: "readout-tmp"
