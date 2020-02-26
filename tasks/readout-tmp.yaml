@@ -1,4 +1,4 @@
-name: readout # read by workflow
+name: readout-tmp # read by workflow
 control:
   mode: direct
 wants:
